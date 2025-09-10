@@ -2,596 +2,620 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "Humanizer/2.14.1": {
+      "Humanizer/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core.af": "2.14.1",
-          "Humanizer.Core.ar": "2.14.1",
-          "Humanizer.Core.az": "2.14.1",
-          "Humanizer.Core.bg": "2.14.1",
-          "Humanizer.Core.bn-BD": "2.14.1",
-          "Humanizer.Core.cs": "2.14.1",
-          "Humanizer.Core.da": "2.14.1",
-          "Humanizer.Core.de": "2.14.1",
-          "Humanizer.Core.el": "2.14.1",
-          "Humanizer.Core.es": "2.14.1",
-          "Humanizer.Core.fa": "2.14.1",
-          "Humanizer.Core.fi-FI": "2.14.1",
-          "Humanizer.Core.fr": "2.14.1",
-          "Humanizer.Core.fr-BE": "2.14.1",
-          "Humanizer.Core.he": "2.14.1",
-          "Humanizer.Core.hr": "2.14.1",
-          "Humanizer.Core.hu": "2.14.1",
-          "Humanizer.Core.hy": "2.14.1",
-          "Humanizer.Core.id": "2.14.1",
-          "Humanizer.Core.is": "2.14.1",
-          "Humanizer.Core.it": "2.14.1",
-          "Humanizer.Core.ja": "2.14.1",
-          "Humanizer.Core.ko-KR": "2.14.1",
-          "Humanizer.Core.ku": "2.14.1",
-          "Humanizer.Core.lv": "2.14.1",
-          "Humanizer.Core.ms-MY": "2.14.1",
-          "Humanizer.Core.mt": "2.14.1",
-          "Humanizer.Core.nb": "2.14.1",
-          "Humanizer.Core.nb-NO": "2.14.1",
-          "Humanizer.Core.nl": "2.14.1",
-          "Humanizer.Core.pl": "2.14.1",
-          "Humanizer.Core.pt": "2.14.1",
-          "Humanizer.Core.ro": "2.14.1",
-          "Humanizer.Core.ru": "2.14.1",
-          "Humanizer.Core.sk": "2.14.1",
-          "Humanizer.Core.sl": "2.14.1",
-          "Humanizer.Core.sr": "2.14.1",
-          "Humanizer.Core.sr-Latn": "2.14.1",
-          "Humanizer.Core.sv": "2.14.1",
-          "Humanizer.Core.th-TH": "2.14.1",
-          "Humanizer.Core.tr": "2.14.1",
-          "Humanizer.Core.uk": "2.14.1",
-          "Humanizer.Core.uz-Cyrl-UZ": "2.14.1",
-          "Humanizer.Core.uz-Latn-UZ": "2.14.1",
-          "Humanizer.Core.vi": "2.14.1",
-          "Humanizer.Core.zh-CN": "2.14.1",
-          "Humanizer.Core.zh-Hans": "2.14.1",
-          "Humanizer.Core.zh-Hant": "2.14.1"
+          "Humanizer.Core.af": "3.0.0-beta.96",
+          "Humanizer.Core.ar": "3.0.0-beta.96",
+          "Humanizer.Core.az": "3.0.0-beta.96",
+          "Humanizer.Core.bg": "3.0.0-beta.96",
+          "Humanizer.Core.bn-BD": "3.0.0-beta.96",
+          "Humanizer.Core.cs": "3.0.0-beta.96",
+          "Humanizer.Core.da": "3.0.0-beta.96",
+          "Humanizer.Core.de": "3.0.0-beta.96",
+          "Humanizer.Core.el": "3.0.0-beta.96",
+          "Humanizer.Core.es": "3.0.0-beta.96",
+          "Humanizer.Core.fa": "3.0.0-beta.96",
+          "Humanizer.Core.fi-FI": "3.0.0-beta.96",
+          "Humanizer.Core.fr": "3.0.0-beta.96",
+          "Humanizer.Core.fr-BE": "3.0.0-beta.96",
+          "Humanizer.Core.he": "3.0.0-beta.96",
+          "Humanizer.Core.hr": "3.0.0-beta.96",
+          "Humanizer.Core.hu": "3.0.0-beta.96",
+          "Humanizer.Core.hy": "3.0.0-beta.96",
+          "Humanizer.Core.id": "3.0.0-beta.96",
+          "Humanizer.Core.is": "3.0.0-beta.96",
+          "Humanizer.Core.it": "3.0.0-beta.96",
+          "Humanizer.Core.ja": "3.0.0-beta.96",
+          "Humanizer.Core.ko-KR": "3.0.0-beta.96",
+          "Humanizer.Core.ku": "3.0.0-beta.96",
+          "Humanizer.Core.lb": "3.0.0-beta.96",
+          "Humanizer.Core.lt": "3.0.0-beta.96",
+          "Humanizer.Core.lv": "3.0.0-beta.96",
+          "Humanizer.Core.ms-MY": "3.0.0-beta.96",
+          "Humanizer.Core.mt": "3.0.0-beta.96",
+          "Humanizer.Core.nb": "3.0.0-beta.96",
+          "Humanizer.Core.nb-NO": "3.0.0-beta.96",
+          "Humanizer.Core.nl": "3.0.0-beta.96",
+          "Humanizer.Core.pl": "3.0.0-beta.96",
+          "Humanizer.Core.pt": "3.0.0-beta.96",
+          "Humanizer.Core.ro": "3.0.0-beta.96",
+          "Humanizer.Core.ru": "3.0.0-beta.96",
+          "Humanizer.Core.sk": "3.0.0-beta.96",
+          "Humanizer.Core.sl": "3.0.0-beta.96",
+          "Humanizer.Core.sr": "3.0.0-beta.96",
+          "Humanizer.Core.sr-Latn": "3.0.0-beta.96",
+          "Humanizer.Core.sv": "3.0.0-beta.96",
+          "Humanizer.Core.th-TH": "3.0.0-beta.96",
+          "Humanizer.Core.tr": "3.0.0-beta.96",
+          "Humanizer.Core.uk": "3.0.0-beta.96",
+          "Humanizer.Core.uz-Cyrl-UZ": "3.0.0-beta.96",
+          "Humanizer.Core.uz-Latn-UZ": "3.0.0-beta.96",
+          "Humanizer.Core.vi": "3.0.0-beta.96",
+          "Humanizer.Core.zh-CN": "3.0.0-beta.96",
+          "Humanizer.Core.zh-Hans": "3.0.0-beta.96",
+          "Humanizer.Core.zh-Hant": "3.0.0-beta.96"
         }
       },
-      "Humanizer.Core/2.14.1": {
+      "Humanizer.Core/3.0.0-beta.96": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
+          "lib/net8.0/Humanizer.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Humanizer.dll": {
+          "lib/net8.0/Humanizer.dll": {
             "related": ".xml"
           }
         }
       },
-      "Humanizer.Core.af/2.14.1": {
+      "Humanizer.Core.af/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/af/Humanizer.resources.dll": {
+          "lib/net8.0/af/Humanizer.resources.dll": {
             "locale": "af"
           }
         }
       },
-      "Humanizer.Core.ar/2.14.1": {
+      "Humanizer.Core.ar/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/ar/Humanizer.resources.dll": {
+          "lib/net8.0/ar/Humanizer.resources.dll": {
             "locale": "ar"
           }
         }
       },
-      "Humanizer.Core.az/2.14.1": {
+      "Humanizer.Core.az/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/az/Humanizer.resources.dll": {
+          "lib/net8.0/az/Humanizer.resources.dll": {
             "locale": "az"
           }
         }
       },
-      "Humanizer.Core.bg/2.14.1": {
+      "Humanizer.Core.bg/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/bg/Humanizer.resources.dll": {
+          "lib/net8.0/bg/Humanizer.resources.dll": {
             "locale": "bg"
           }
         }
       },
-      "Humanizer.Core.bn-BD/2.14.1": {
+      "Humanizer.Core.bn-BD/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/bn-BD/Humanizer.resources.dll": {
+          "lib/net8.0/bn-BD/Humanizer.resources.dll": {
             "locale": "bn-BD"
           }
         }
       },
-      "Humanizer.Core.cs/2.14.1": {
+      "Humanizer.Core.cs/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/cs/Humanizer.resources.dll": {
+          "lib/net8.0/cs/Humanizer.resources.dll": {
             "locale": "cs"
           }
         }
       },
-      "Humanizer.Core.da/2.14.1": {
+      "Humanizer.Core.da/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/da/Humanizer.resources.dll": {
+          "lib/net8.0/da/Humanizer.resources.dll": {
             "locale": "da"
           }
         }
       },
-      "Humanizer.Core.de/2.14.1": {
+      "Humanizer.Core.de/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/de/Humanizer.resources.dll": {
+          "lib/net8.0/de/Humanizer.resources.dll": {
             "locale": "de"
           }
         }
       },
-      "Humanizer.Core.el/2.14.1": {
+      "Humanizer.Core.el/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/el/Humanizer.resources.dll": {
+          "lib/net8.0/el/Humanizer.resources.dll": {
             "locale": "el"
           }
         }
       },
-      "Humanizer.Core.es/2.14.1": {
+      "Humanizer.Core.es/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/es/Humanizer.resources.dll": {
+          "lib/net8.0/es/Humanizer.resources.dll": {
             "locale": "es"
           }
         }
       },
-      "Humanizer.Core.fa/2.14.1": {
+      "Humanizer.Core.fa/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/fa/Humanizer.resources.dll": {
+          "lib/net8.0/fa/Humanizer.resources.dll": {
             "locale": "fa"
           }
         }
       },
-      "Humanizer.Core.fi-FI/2.14.1": {
+      "Humanizer.Core.fi-FI/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/fi-FI/Humanizer.resources.dll": {
+          "lib/net8.0/fi-FI/Humanizer.resources.dll": {
             "locale": "fi-FI"
           }
         }
       },
-      "Humanizer.Core.fr/2.14.1": {
+      "Humanizer.Core.fr/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/fr/Humanizer.resources.dll": {
+          "lib/net8.0/fr/Humanizer.resources.dll": {
             "locale": "fr"
           }
         }
       },
-      "Humanizer.Core.fr-BE/2.14.1": {
+      "Humanizer.Core.fr-BE/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/fr-BE/Humanizer.resources.dll": {
+          "lib/net8.0/fr-BE/Humanizer.resources.dll": {
             "locale": "fr-BE"
           }
         }
       },
-      "Humanizer.Core.he/2.14.1": {
+      "Humanizer.Core.he/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/he/Humanizer.resources.dll": {
+          "lib/net8.0/he/Humanizer.resources.dll": {
             "locale": "he"
           }
         }
       },
-      "Humanizer.Core.hr/2.14.1": {
+      "Humanizer.Core.hr/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/hr/Humanizer.resources.dll": {
+          "lib/net8.0/hr/Humanizer.resources.dll": {
             "locale": "hr"
           }
         }
       },
-      "Humanizer.Core.hu/2.14.1": {
+      "Humanizer.Core.hu/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/hu/Humanizer.resources.dll": {
+          "lib/net8.0/hu/Humanizer.resources.dll": {
             "locale": "hu"
           }
         }
       },
-      "Humanizer.Core.hy/2.14.1": {
+      "Humanizer.Core.hy/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/hy/Humanizer.resources.dll": {
+          "lib/net8.0/hy/Humanizer.resources.dll": {
             "locale": "hy"
           }
         }
       },
-      "Humanizer.Core.id/2.14.1": {
+      "Humanizer.Core.id/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/id/Humanizer.resources.dll": {
+          "lib/net8.0/id/Humanizer.resources.dll": {
             "locale": "id"
           }
         }
       },
-      "Humanizer.Core.is/2.14.1": {
+      "Humanizer.Core.is/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/is/Humanizer.resources.dll": {
+          "lib/net8.0/is/Humanizer.resources.dll": {
             "locale": "is"
           }
         }
       },
-      "Humanizer.Core.it/2.14.1": {
+      "Humanizer.Core.it/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/it/Humanizer.resources.dll": {
+          "lib/net8.0/it/Humanizer.resources.dll": {
             "locale": "it"
           }
         }
       },
-      "Humanizer.Core.ja/2.14.1": {
+      "Humanizer.Core.ja/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/ja/Humanizer.resources.dll": {
+          "lib/net8.0/ja/Humanizer.resources.dll": {
             "locale": "ja"
           }
         }
       },
-      "Humanizer.Core.ko-KR/2.14.1": {
+      "Humanizer.Core.ko-KR/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/netstandard2.0/ko-KR/Humanizer.resources.dll": {
+          "lib/net8.0/ko-KR/Humanizer.resources.dll": {
             "locale": "ko-KR"
           }
         }
       },
-      "Humanizer.Core.ku/2.14.1": {
+      "Humanizer.Core.ku/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/ku/Humanizer.resources.dll": {
+          "lib/net8.0/ku/Humanizer.resources.dll": {
             "locale": "ku"
           }
         }
       },
-      "Humanizer.Core.lv/2.14.1": {
+      "Humanizer.Core.lb/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/lv/Humanizer.resources.dll": {
+          "lib/net8.0/lb/Humanizer.resources.dll": {
+            "locale": "lb"
+          }
+        }
+      },
+      "Humanizer.Core.lt/3.0.0-beta.96": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[3.0.0-beta.96]"
+        },
+        "resource": {
+          "lib/net8.0/lt/Humanizer.resources.dll": {
+            "locale": "lt"
+          }
+        }
+      },
+      "Humanizer.Core.lv/3.0.0-beta.96": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[3.0.0-beta.96]"
+        },
+        "resource": {
+          "lib/net8.0/lv/Humanizer.resources.dll": {
             "locale": "lv"
           }
         }
       },
-      "Humanizer.Core.ms-MY/2.14.1": {
+      "Humanizer.Core.ms-MY/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/netstandard2.0/ms-MY/Humanizer.resources.dll": {
+          "lib/net8.0/ms-MY/Humanizer.resources.dll": {
             "locale": "ms-MY"
           }
         }
       },
-      "Humanizer.Core.mt/2.14.1": {
+      "Humanizer.Core.mt/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/netstandard2.0/mt/Humanizer.resources.dll": {
+          "lib/net8.0/mt/Humanizer.resources.dll": {
             "locale": "mt"
           }
         }
       },
-      "Humanizer.Core.nb/2.14.1": {
+      "Humanizer.Core.nb/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/nb/Humanizer.resources.dll": {
+          "lib/net8.0/nb/Humanizer.resources.dll": {
             "locale": "nb"
           }
         }
       },
-      "Humanizer.Core.nb-NO/2.14.1": {
+      "Humanizer.Core.nb-NO/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/nb-NO/Humanizer.resources.dll": {
+          "lib/net8.0/nb-NO/Humanizer.resources.dll": {
             "locale": "nb-NO"
           }
         }
       },
-      "Humanizer.Core.nl/2.14.1": {
+      "Humanizer.Core.nl/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/nl/Humanizer.resources.dll": {
+          "lib/net8.0/nl/Humanizer.resources.dll": {
             "locale": "nl"
           }
         }
       },
-      "Humanizer.Core.pl/2.14.1": {
+      "Humanizer.Core.pl/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/pl/Humanizer.resources.dll": {
+          "lib/net8.0/pl/Humanizer.resources.dll": {
             "locale": "pl"
           }
         }
       },
-      "Humanizer.Core.pt/2.14.1": {
+      "Humanizer.Core.pt/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/pt/Humanizer.resources.dll": {
+          "lib/net8.0/pt/Humanizer.resources.dll": {
             "locale": "pt"
           }
         }
       },
-      "Humanizer.Core.ro/2.14.1": {
+      "Humanizer.Core.ro/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/ro/Humanizer.resources.dll": {
+          "lib/net8.0/ro/Humanizer.resources.dll": {
             "locale": "ro"
           }
         }
       },
-      "Humanizer.Core.ru/2.14.1": {
+      "Humanizer.Core.ru/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/ru/Humanizer.resources.dll": {
+          "lib/net8.0/ru/Humanizer.resources.dll": {
             "locale": "ru"
           }
         }
       },
-      "Humanizer.Core.sk/2.14.1": {
+      "Humanizer.Core.sk/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/sk/Humanizer.resources.dll": {
+          "lib/net8.0/sk/Humanizer.resources.dll": {
             "locale": "sk"
           }
         }
       },
-      "Humanizer.Core.sl/2.14.1": {
+      "Humanizer.Core.sl/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/sl/Humanizer.resources.dll": {
+          "lib/net8.0/sl/Humanizer.resources.dll": {
             "locale": "sl"
           }
         }
       },
-      "Humanizer.Core.sr/2.14.1": {
+      "Humanizer.Core.sr/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/sr/Humanizer.resources.dll": {
+          "lib/net8.0/sr/Humanizer.resources.dll": {
             "locale": "sr"
           }
         }
       },
-      "Humanizer.Core.sr-Latn/2.14.1": {
+      "Humanizer.Core.sr-Latn/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/sr-Latn/Humanizer.resources.dll": {
+          "lib/net8.0/sr-Latn/Humanizer.resources.dll": {
             "locale": "sr-Latn"
           }
         }
       },
-      "Humanizer.Core.sv/2.14.1": {
+      "Humanizer.Core.sv/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/sv/Humanizer.resources.dll": {
+          "lib/net8.0/sv/Humanizer.resources.dll": {
             "locale": "sv"
           }
         }
       },
-      "Humanizer.Core.th-TH/2.14.1": {
+      "Humanizer.Core.th-TH/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/netstandard2.0/th-TH/Humanizer.resources.dll": {
+          "lib/net8.0/th-TH/Humanizer.resources.dll": {
             "locale": "th-TH"
           }
         }
       },
-      "Humanizer.Core.tr/2.14.1": {
+      "Humanizer.Core.tr/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/tr/Humanizer.resources.dll": {
+          "lib/net8.0/tr/Humanizer.resources.dll": {
             "locale": "tr"
           }
         }
       },
-      "Humanizer.Core.uk/2.14.1": {
+      "Humanizer.Core.uk/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/uk/Humanizer.resources.dll": {
+          "lib/net8.0/uk/Humanizer.resources.dll": {
             "locale": "uk"
           }
         }
       },
-      "Humanizer.Core.uz-Cyrl-UZ/2.14.1": {
+      "Humanizer.Core.uz-Cyrl-UZ/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/uz-Cyrl-UZ/Humanizer.resources.dll": {
+          "lib/net8.0/uz-Cyrl-UZ/Humanizer.resources.dll": {
             "locale": "uz-Cyrl-UZ"
           }
         }
       },
-      "Humanizer.Core.uz-Latn-UZ/2.14.1": {
+      "Humanizer.Core.uz-Latn-UZ/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/uz-Latn-UZ/Humanizer.resources.dll": {
+          "lib/net8.0/uz-Latn-UZ/Humanizer.resources.dll": {
             "locale": "uz-Latn-UZ"
           }
         }
       },
-      "Humanizer.Core.vi/2.14.1": {
+      "Humanizer.Core.vi/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/vi/Humanizer.resources.dll": {
+          "lib/net8.0/vi/Humanizer.resources.dll": {
             "locale": "vi"
           }
         }
       },
-      "Humanizer.Core.zh-CN/2.14.1": {
+      "Humanizer.Core.zh-CN/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/zh-CN/Humanizer.resources.dll": {
+          "lib/net8.0/zh-CN/Humanizer.resources.dll": {
             "locale": "zh-CN"
           }
         }
       },
-      "Humanizer.Core.zh-Hans/2.14.1": {
+      "Humanizer.Core.zh-Hans/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/zh-Hans/Humanizer.resources.dll": {
+          "lib/net8.0/zh-Hans/Humanizer.resources.dll": {
             "locale": "zh-Hans"
           }
         }
       },
-      "Humanizer.Core.zh-Hant/2.14.1": {
+      "Humanizer.Core.zh-Hant/3.0.0-beta.96": {
         "type": "package",
         "dependencies": {
-          "Humanizer.Core": "[2.14.1]"
+          "Humanizer.Core": "[3.0.0-beta.96]"
         },
         "resource": {
-          "lib/net6.0/zh-Hant/Humanizer.resources.dll": {
+          "lib/net8.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -599,748 +623,834 @@
     }
   },
   "libraries": {
-    "Humanizer/2.14.1": {
-      "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
+    "Humanizer/3.0.0-beta.96": {
+      "sha512": "T1X21b+0l3jYDH1DztroJIeXdCwlNGmNYDidru9TzcLahwceQ48UGMjOQeWSa1v8zncPvhJzLzVAYWmOZcOySA==",
       "type": "package",
-      "path": "humanizer/2.14.1",
+      "path": "humanizer/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.2.14.1.nupkg.sha512",
+        "humanizer.3.0.0-beta.96.nupkg.sha512",
         "humanizer.nuspec",
         "logo.png"
       ]
     },
-    "Humanizer.Core/2.14.1": {
-      "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+    "Humanizer.Core/3.0.0-beta.96": {
+      "sha512": "anMn7QrFRWthyt08MSDFdUKoOwMqNqDpI9AJ3YIgJZJq1qmJd9sjHiKgJM/Ov0WyLEE8pARzyxOkIbXX1pBd0w==",
       "type": "package",
-      "path": "humanizer.core/2.14.1",
+      "path": "humanizer.core/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.2.14.1.nupkg.sha512",
+        "humanizer.core.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.nuspec",
-        "lib/net6.0/Humanizer.dll",
-        "lib/net6.0/Humanizer.xml",
-        "lib/netstandard1.0/Humanizer.dll",
-        "lib/netstandard1.0/Humanizer.xml",
+        "lib/net10.0/Humanizer.dll",
+        "lib/net10.0/Humanizer.xml",
+        "lib/net48/Humanizer.dll",
+        "lib/net48/Humanizer.xml",
+        "lib/net8.0/Humanizer.dll",
+        "lib/net8.0/Humanizer.xml",
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
       ]
     },
-    "Humanizer.Core.af/2.14.1": {
-      "sha512": "BoQHyu5le+xxKOw+/AUM7CLXneM/Bh3++0qh1u0+D95n6f9eGt9kNc8LcAHLIOwId7Sd5hiAaaav0Nimj3peNw==",
+    "Humanizer.Core.af/3.0.0-beta.96": {
+      "sha512": "8/9iF3PY2Dm5M87AyU02LoUZV634znBVQsuMQu+yjxtAgGYAksL0skikU1IblDEp2Hh7I2ejOa48Jb/MjIvSEw==",
       "type": "package",
-      "path": "humanizer.core.af/2.14.1",
+      "path": "humanizer.core.af/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.af.2.14.1.nupkg.sha512",
+        "humanizer.core.af.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.af.nuspec",
-        "lib/net6.0/af/Humanizer.resources.dll",
-        "lib/netstandard1.0/af/Humanizer.resources.dll",
+        "lib/net10.0/af/Humanizer.resources.dll",
+        "lib/net48/af/Humanizer.resources.dll",
+        "lib/net8.0/af/Humanizer.resources.dll",
         "lib/netstandard2.0/af/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.ar/2.14.1": {
-      "sha512": "3d1V10LDtmqg5bZjWkA/EkmGFeSfNBcyCH+TiHcHP+HGQQmRq3eBaLcLnOJbVQVn3Z6Ak8GOte4RX4kVCxQlFA==",
+    "Humanizer.Core.ar/3.0.0-beta.96": {
+      "sha512": "TfwuryVUAE8GLA3ZuTh2VE8gz+15kyBpA+UjMsrgVm9b8biySFegHRNvcdb2H1w/mHYKD6eQbEq/dXGELu1C1A==",
       "type": "package",
-      "path": "humanizer.core.ar/2.14.1",
+      "path": "humanizer.core.ar/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.ar.2.14.1.nupkg.sha512",
+        "humanizer.core.ar.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.ar.nuspec",
-        "lib/net6.0/ar/Humanizer.resources.dll",
-        "lib/netstandard1.0/ar/Humanizer.resources.dll",
+        "lib/net10.0/ar/Humanizer.resources.dll",
+        "lib/net48/ar/Humanizer.resources.dll",
+        "lib/net8.0/ar/Humanizer.resources.dll",
         "lib/netstandard2.0/ar/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.az/2.14.1": {
-      "sha512": "8Z/tp9PdHr/K2Stve2Qs/7uqWPWLUK9D8sOZDNzyv42e20bSoJkHFn7SFoxhmaoVLJwku2jp6P7HuwrfkrP18Q==",
+    "Humanizer.Core.az/3.0.0-beta.96": {
+      "sha512": "CuBTV+VWWkFUdXK0f11KASlx3zAsx701bG/sbhvWWEfEQsXwr8fqNl4S74iNE2TWFSP8e1nPPS4Lu23qpXfwkw==",
       "type": "package",
-      "path": "humanizer.core.az/2.14.1",
+      "path": "humanizer.core.az/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.az.2.14.1.nupkg.sha512",
+        "humanizer.core.az.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.az.nuspec",
-        "lib/net6.0/az/Humanizer.resources.dll",
-        "lib/netstandard1.0/az/Humanizer.resources.dll",
+        "lib/net10.0/az/Humanizer.resources.dll",
+        "lib/net48/az/Humanizer.resources.dll",
+        "lib/net8.0/az/Humanizer.resources.dll",
         "lib/netstandard2.0/az/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.bg/2.14.1": {
-      "sha512": "S+hIEHicrOcbV2TBtyoPp1AVIGsBzlarOGThhQYCnP6QzEYo/5imtok6LMmhZeTnBFoKhM8yJqRfvJ5yqVQKSQ==",
+    "Humanizer.Core.bg/3.0.0-beta.96": {
+      "sha512": "AFZc1q0s9zFmxlaBYkZLlXWIAy6uxznU424g5RuNllAjuRKIjSZ7VSF/9yRC4PasVZf1hYiqL5M9oQLXz10yqA==",
       "type": "package",
-      "path": "humanizer.core.bg/2.14.1",
+      "path": "humanizer.core.bg/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.bg.2.14.1.nupkg.sha512",
+        "humanizer.core.bg.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.bg.nuspec",
-        "lib/net6.0/bg/Humanizer.resources.dll",
-        "lib/netstandard1.0/bg/Humanizer.resources.dll",
+        "lib/net10.0/bg/Humanizer.resources.dll",
+        "lib/net48/bg/Humanizer.resources.dll",
+        "lib/net8.0/bg/Humanizer.resources.dll",
         "lib/netstandard2.0/bg/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.bn-BD/2.14.1": {
-      "sha512": "U3bfj90tnUDRKlL1ZFlzhCHoVgpTcqUlTQxjvGCaFKb+734TTu3nkHUWVZltA1E/swTvimo/aXLtkxnLFrc0EQ==",
+    "Humanizer.Core.bn-BD/3.0.0-beta.96": {
+      "sha512": "nkgVbmYNo9G8brbR0EmVxsN1nF2eqn+GSCMNY3+Nr2VnEo6RlESd8ZYz6+Q93RpelVq2jmsmXWgnp+TLa43eQA==",
       "type": "package",
-      "path": "humanizer.core.bn-bd/2.14.1",
+      "path": "humanizer.core.bn-bd/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.bn-bd.2.14.1.nupkg.sha512",
+        "humanizer.core.bn-bd.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.bn-bd.nuspec",
-        "lib/net6.0/bn-BD/Humanizer.resources.dll",
-        "lib/netstandard1.0/bn-BD/Humanizer.resources.dll",
+        "lib/net10.0/bn-BD/Humanizer.resources.dll",
+        "lib/net48/bn-BD/Humanizer.resources.dll",
+        "lib/net8.0/bn-BD/Humanizer.resources.dll",
         "lib/netstandard2.0/bn-BD/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.cs/2.14.1": {
-      "sha512": "jWrQkiCTy3L2u1T86cFkgijX6k7hoB0pdcFMWYaSZnm6rvG/XJE40tfhYyKhYYgIc1x9P2GO5AC7xXvFnFdqMQ==",
+    "Humanizer.Core.cs/3.0.0-beta.96": {
+      "sha512": "ERRbgPC2/Jpj0sSoKFS28dpluDwNteHtmaH2NHq6d9xTbNSNMnINKBR+osDhpFJboJA5EsSEj4ZZwnNDMSnrUw==",
       "type": "package",
-      "path": "humanizer.core.cs/2.14.1",
+      "path": "humanizer.core.cs/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.cs.2.14.1.nupkg.sha512",
+        "humanizer.core.cs.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.cs.nuspec",
-        "lib/net6.0/cs/Humanizer.resources.dll",
-        "lib/netstandard1.0/cs/Humanizer.resources.dll",
+        "lib/net10.0/cs/Humanizer.resources.dll",
+        "lib/net48/cs/Humanizer.resources.dll",
+        "lib/net8.0/cs/Humanizer.resources.dll",
         "lib/netstandard2.0/cs/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.da/2.14.1": {
-      "sha512": "5o0rJyE/2wWUUphC79rgYDnif/21MKTTx9LIzRVz9cjCIVFrJ2bDyR2gapvI9D6fjoyvD1NAfkN18SHBsO8S9g==",
+    "Humanizer.Core.da/3.0.0-beta.96": {
+      "sha512": "cf6/r5QJ74pQZVNGCr+P0jXJ7WtP8Wqvur053Rwc+Sfvuj+W3Y7A+Bkwnz1kreGhaH5ikz/7tirnKIkdA119cQ==",
       "type": "package",
-      "path": "humanizer.core.da/2.14.1",
+      "path": "humanizer.core.da/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.da.2.14.1.nupkg.sha512",
+        "humanizer.core.da.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.da.nuspec",
-        "lib/net6.0/da/Humanizer.resources.dll",
-        "lib/netstandard1.0/da/Humanizer.resources.dll",
+        "lib/net10.0/da/Humanizer.resources.dll",
+        "lib/net48/da/Humanizer.resources.dll",
+        "lib/net8.0/da/Humanizer.resources.dll",
         "lib/netstandard2.0/da/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.de/2.14.1": {
-      "sha512": "9JD/p+rqjb8f5RdZ3aEJqbjMYkbk4VFii2QDnnOdNo6ywEfg/A5YeOQ55CaBJmy7KvV4tOK4+qHJnX/tg3Z54A==",
+    "Humanizer.Core.de/3.0.0-beta.96": {
+      "sha512": "XdinGY9a+vyZ9HOgqTzH+vs0oFSe8bncw+QlbT9N5dyx9ssTnmo94DhSi9+lAK6TONrv9gFJJdLKLgi2xtvdhw==",
       "type": "package",
-      "path": "humanizer.core.de/2.14.1",
+      "path": "humanizer.core.de/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.de.2.14.1.nupkg.sha512",
+        "humanizer.core.de.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.de.nuspec",
-        "lib/net6.0/de/Humanizer.resources.dll",
-        "lib/netstandard1.0/de/Humanizer.resources.dll",
+        "lib/net10.0/de/Humanizer.resources.dll",
+        "lib/net48/de/Humanizer.resources.dll",
+        "lib/net8.0/de/Humanizer.resources.dll",
         "lib/netstandard2.0/de/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.el/2.14.1": {
-      "sha512": "Xmv6sTL5mqjOWGGpqY7bvbfK5RngaUHSa8fYDGSLyxY9mGdNbDcasnRnMOvi0SxJS9gAqBCn21Xi90n2SHZbFA==",
+    "Humanizer.Core.el/3.0.0-beta.96": {
+      "sha512": "wib7nnI+RS8WapMRUOXxV7tToWwfm6mjytsZ9xIRDlMk+kN1/YgBdKU+A/gPrKsYIBPzHbCtP8PgrdUm1YsnYA==",
       "type": "package",
-      "path": "humanizer.core.el/2.14.1",
+      "path": "humanizer.core.el/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.el.2.14.1.nupkg.sha512",
+        "humanizer.core.el.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.el.nuspec",
-        "lib/net6.0/el/Humanizer.resources.dll",
-        "lib/netstandard1.0/el/Humanizer.resources.dll",
+        "lib/net10.0/el/Humanizer.resources.dll",
+        "lib/net48/el/Humanizer.resources.dll",
+        "lib/net8.0/el/Humanizer.resources.dll",
         "lib/netstandard2.0/el/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.es/2.14.1": {
-      "sha512": "e//OIAeMB7pjBV1HqqI4pM2Bcw3Jwgpyz9G5Fi4c+RJvhqFwztoWxW57PzTnNJE2lbhGGLQZihFZjsbTUsbczA==",
+    "Humanizer.Core.es/3.0.0-beta.96": {
+      "sha512": "OBQm6ONiwNgPT1FXYHAdEwgEh/F/C3zu99v/SQVxgUYOP0MxCIjt9heizUOAjkB7iuV7mwC8Ni0TNzDt/CXplQ==",
       "type": "package",
-      "path": "humanizer.core.es/2.14.1",
+      "path": "humanizer.core.es/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.es.2.14.1.nupkg.sha512",
+        "humanizer.core.es.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.es.nuspec",
-        "lib/net6.0/es/Humanizer.resources.dll",
-        "lib/netstandard1.0/es/Humanizer.resources.dll",
+        "lib/net10.0/es/Humanizer.resources.dll",
+        "lib/net48/es/Humanizer.resources.dll",
+        "lib/net8.0/es/Humanizer.resources.dll",
         "lib/netstandard2.0/es/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.fa/2.14.1": {
-      "sha512": "nzDOj1x0NgjXMjsQxrET21t1FbdoRYujzbmZoR8u8ou5CBWY1UNca0j6n/PEJR/iUbt4IxstpszRy41wL/BrpA==",
+    "Humanizer.Core.fa/3.0.0-beta.96": {
+      "sha512": "f1mSmnmTZhEx10qHiYzX7te6cXlF55TwJDrA1bXnIwe5/pEXBYVp9xvQD76zOEOER57HRNaCwum6ZHNkwwquHw==",
       "type": "package",
-      "path": "humanizer.core.fa/2.14.1",
+      "path": "humanizer.core.fa/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.fa.2.14.1.nupkg.sha512",
+        "humanizer.core.fa.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.fa.nuspec",
-        "lib/net6.0/fa/Humanizer.resources.dll",
-        "lib/netstandard1.0/fa/Humanizer.resources.dll",
+        "lib/net10.0/fa/Humanizer.resources.dll",
+        "lib/net48/fa/Humanizer.resources.dll",
+        "lib/net8.0/fa/Humanizer.resources.dll",
         "lib/netstandard2.0/fa/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.fi-FI/2.14.1": {
-      "sha512": "Vnxxx4LUhp3AzowYi6lZLAA9Lh8UqkdwRh4IE2qDXiVpbo08rSbokATaEzFS+o+/jCNZBmoyyyph3vgmcSzhhQ==",
+    "Humanizer.Core.fi-FI/3.0.0-beta.96": {
+      "sha512": "M4rtABPYIbJZI41fNbIwY18ly3uwi04pelqG4Ox5PChmDo1KFYeTI+MjqCC3J16CDtV9IYq43JYmz2aS9KkzxQ==",
       "type": "package",
-      "path": "humanizer.core.fi-fi/2.14.1",
+      "path": "humanizer.core.fi-fi/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.fi-fi.2.14.1.nupkg.sha512",
+        "humanizer.core.fi-fi.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.fi-fi.nuspec",
-        "lib/net6.0/fi-FI/Humanizer.resources.dll",
-        "lib/netstandard1.0/fi-FI/Humanizer.resources.dll",
+        "lib/net10.0/fi-FI/Humanizer.resources.dll",
+        "lib/net48/fi-FI/Humanizer.resources.dll",
+        "lib/net8.0/fi-FI/Humanizer.resources.dll",
         "lib/netstandard2.0/fi-FI/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.fr/2.14.1": {
-      "sha512": "2p4g0BYNzFS3u9SOIDByp2VClYKO0K1ecDV4BkB9EYdEPWfFODYnF+8CH8LpUrpxL2TuWo2fiFx/4Jcmrnkbpg==",
+    "Humanizer.Core.fr/3.0.0-beta.96": {
+      "sha512": "Zf6DKTXvKUQ4751UuWdpgLvF0sHoWSdU2nYLd0NRkjxkko+GA1VCo3z6jHJKRNFYrOPXYRfl6e1RqXEEnLmhAw==",
       "type": "package",
-      "path": "humanizer.core.fr/2.14.1",
+      "path": "humanizer.core.fr/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.fr.2.14.1.nupkg.sha512",
+        "humanizer.core.fr.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.fr.nuspec",
-        "lib/net6.0/fr/Humanizer.resources.dll",
-        "lib/netstandard1.0/fr/Humanizer.resources.dll",
+        "lib/net10.0/fr/Humanizer.resources.dll",
+        "lib/net48/fr/Humanizer.resources.dll",
+        "lib/net8.0/fr/Humanizer.resources.dll",
         "lib/netstandard2.0/fr/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.fr-BE/2.14.1": {
-      "sha512": "o6R3SerxCRn5Ij8nCihDNMGXlaJ/1AqefteAssgmU2qXYlSAGdhxmnrQAXZUDlE4YWt/XQ6VkNLtH7oMqsSPFQ==",
+    "Humanizer.Core.fr-BE/3.0.0-beta.96": {
+      "sha512": "6JpbLjoEkYzLTvN9qedAkFW+MCyi8u3zx2DFNur64uLkO5gIKMUUbGLfFT9DJiji9iTukryGejmFGC4gqd5HnA==",
       "type": "package",
-      "path": "humanizer.core.fr-be/2.14.1",
+      "path": "humanizer.core.fr-be/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.fr-be.2.14.1.nupkg.sha512",
+        "humanizer.core.fr-be.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.fr-be.nuspec",
-        "lib/net6.0/fr-BE/Humanizer.resources.dll",
-        "lib/netstandard1.0/fr-BE/Humanizer.resources.dll",
+        "lib/net10.0/fr-BE/Humanizer.resources.dll",
+        "lib/net48/fr-BE/Humanizer.resources.dll",
+        "lib/net8.0/fr-BE/Humanizer.resources.dll",
         "lib/netstandard2.0/fr-BE/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.he/2.14.1": {
-      "sha512": "FPsAhy7Iw6hb+ZitLgYC26xNcgGAHXb0V823yFAzcyoL5ozM+DCJtYfDPYiOpsJhEZmKFTM9No0jUn1M89WGvg==",
+    "Humanizer.Core.he/3.0.0-beta.96": {
+      "sha512": "2EkoQaHlsPYNOvfGwioQfa5PB5tYCuRI2sbVKDd71SujUUuFmvQo7Y1cqrXkB0aRw4IXRMV4kqVw7WC54vQjIw==",
       "type": "package",
-      "path": "humanizer.core.he/2.14.1",
+      "path": "humanizer.core.he/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.he.2.14.1.nupkg.sha512",
+        "humanizer.core.he.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.he.nuspec",
-        "lib/net6.0/he/Humanizer.resources.dll",
-        "lib/netstandard1.0/he/Humanizer.resources.dll",
+        "lib/net10.0/he/Humanizer.resources.dll",
+        "lib/net48/he/Humanizer.resources.dll",
+        "lib/net8.0/he/Humanizer.resources.dll",
         "lib/netstandard2.0/he/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.hr/2.14.1": {
-      "sha512": "chnaD89yOlST142AMkAKLuzRcV5df3yyhDyRU5rypDiqrq2HN8y1UR3h1IicEAEtXLoOEQyjSAkAQ6QuXkn7aw==",
+    "Humanizer.Core.hr/3.0.0-beta.96": {
+      "sha512": "5eKjP6mxl5F7CmD4++u2aRfPkm7Ky1jdC322lOhORXIMY2QUG7nSk6wdP3n4gZX/35GI3ZbCs2SOA67rc8QGiw==",
       "type": "package",
-      "path": "humanizer.core.hr/2.14.1",
+      "path": "humanizer.core.hr/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.hr.2.14.1.nupkg.sha512",
+        "humanizer.core.hr.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.hr.nuspec",
-        "lib/net6.0/hr/Humanizer.resources.dll",
-        "lib/netstandard1.0/hr/Humanizer.resources.dll",
+        "lib/net10.0/hr/Humanizer.resources.dll",
+        "lib/net48/hr/Humanizer.resources.dll",
+        "lib/net8.0/hr/Humanizer.resources.dll",
         "lib/netstandard2.0/hr/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.hu/2.14.1": {
-      "sha512": "hAfnaoF9LTGU/CmFdbnvugN4tIs8ppevVMe3e5bD24+tuKsggMc5hYta9aiydI8JH9JnuVmxvNI4DJee1tK05A==",
+    "Humanizer.Core.hu/3.0.0-beta.96": {
+      "sha512": "Hfyn9yfC4SkQ2IDV2x74oQauosvbXJdg43bzA/W3uPP3gBBKeZHsGnYdZtlWoXcsH9bbBj6PEi2PQwrHI5Euzg==",
       "type": "package",
-      "path": "humanizer.core.hu/2.14.1",
+      "path": "humanizer.core.hu/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.hu.2.14.1.nupkg.sha512",
+        "humanizer.core.hu.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.hu.nuspec",
-        "lib/net6.0/hu/Humanizer.resources.dll",
-        "lib/netstandard1.0/hu/Humanizer.resources.dll",
+        "lib/net10.0/hu/Humanizer.resources.dll",
+        "lib/net48/hu/Humanizer.resources.dll",
+        "lib/net8.0/hu/Humanizer.resources.dll",
         "lib/netstandard2.0/hu/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.hy/2.14.1": {
-      "sha512": "sVIKxOiSBUb4gStRHo9XwwAg9w7TNvAXbjy176gyTtaTiZkcjr9aCPziUlYAF07oNz6SdwdC2mwJBGgvZ0Sl2g==",
+    "Humanizer.Core.hy/3.0.0-beta.96": {
+      "sha512": "noClOyB3R9YfDQ3R8rMFLXTBlb9qwz6oEnDwgOojv+gUQ6uN+39DNEB3NiTAnL9hryC4ArnCbixOjCXghjIr4Q==",
       "type": "package",
-      "path": "humanizer.core.hy/2.14.1",
+      "path": "humanizer.core.hy/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.hy.2.14.1.nupkg.sha512",
+        "humanizer.core.hy.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.hy.nuspec",
-        "lib/net6.0/hy/Humanizer.resources.dll",
-        "lib/netstandard1.0/hy/Humanizer.resources.dll",
+        "lib/net10.0/hy/Humanizer.resources.dll",
+        "lib/net48/hy/Humanizer.resources.dll",
+        "lib/net8.0/hy/Humanizer.resources.dll",
         "lib/netstandard2.0/hy/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.id/2.14.1": {
-      "sha512": "4Zl3GTvk3a49Ia/WDNQ97eCupjjQRs2iCIZEQdmkiqyaLWttfb+cYXDMGthP42nufUL0SRsvBctN67oSpnXtsg==",
+    "Humanizer.Core.id/3.0.0-beta.96": {
+      "sha512": "6uxBc4LeJxm2UWGjkF4BbXYeaNmy6oM8OVaaDmcMtWWanJNpxQ0q7i0UssuLKeFEOhm2KnDVmTcHqkOS3p26wA==",
       "type": "package",
-      "path": "humanizer.core.id/2.14.1",
+      "path": "humanizer.core.id/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.id.2.14.1.nupkg.sha512",
+        "humanizer.core.id.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.id.nuspec",
-        "lib/net6.0/id/Humanizer.resources.dll",
-        "lib/netstandard1.0/id/Humanizer.resources.dll",
+        "lib/net10.0/id/Humanizer.resources.dll",
+        "lib/net48/id/Humanizer.resources.dll",
+        "lib/net8.0/id/Humanizer.resources.dll",
         "lib/netstandard2.0/id/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.is/2.14.1": {
-      "sha512": "R67A9j/nNgcWzU7gZy1AJ07ABSLvogRbqOWvfRDn4q6hNdbg/mjGjZBp4qCTPnB2mHQQTCKo3oeCUayBCNIBCw==",
+    "Humanizer.Core.is/3.0.0-beta.96": {
+      "sha512": "DH6j66s1l2OX0rXM22uaFDN6bwh6Ss6LBckaUWUb4t1aEzDIgW09mzZoMG+3zx/LhRibmsur86rf/jN3+2weCQ==",
       "type": "package",
-      "path": "humanizer.core.is/2.14.1",
+      "path": "humanizer.core.is/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.is.2.14.1.nupkg.sha512",
+        "humanizer.core.is.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.is.nuspec",
-        "lib/net6.0/is/Humanizer.resources.dll",
-        "lib/netstandard1.0/is/Humanizer.resources.dll",
+        "lib/net10.0/is/Humanizer.resources.dll",
+        "lib/net48/is/Humanizer.resources.dll",
+        "lib/net8.0/is/Humanizer.resources.dll",
         "lib/netstandard2.0/is/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.it/2.14.1": {
-      "sha512": "jYxGeN4XIKHVND02FZ+Woir3CUTyBhLsqxu9iqR/9BISArkMf1Px6i5pRZnvq4fc5Zn1qw71GKKoCaHDJBsLFw==",
+    "Humanizer.Core.it/3.0.0-beta.96": {
+      "sha512": "WzxjrUGtRWrB623K8M0wW7qmAdfLroind4yEvsPTRnDFa0prFHLFZxOWF9ypBu6yLXR3T2TdT4Z3r7jYsT+bLA==",
       "type": "package",
-      "path": "humanizer.core.it/2.14.1",
+      "path": "humanizer.core.it/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.it.2.14.1.nupkg.sha512",
+        "humanizer.core.it.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.it.nuspec",
-        "lib/net6.0/it/Humanizer.resources.dll",
-        "lib/netstandard1.0/it/Humanizer.resources.dll",
+        "lib/net10.0/it/Humanizer.resources.dll",
+        "lib/net48/it/Humanizer.resources.dll",
+        "lib/net8.0/it/Humanizer.resources.dll",
         "lib/netstandard2.0/it/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.ja/2.14.1": {
-      "sha512": "TM3ablFNoYx4cYJybmRgpDioHpiKSD7q0QtMrmpsqwtiiEsdW5zz/q4PolwAczFnvrKpN6nBXdjnPPKVet93ng==",
+    "Humanizer.Core.ja/3.0.0-beta.96": {
+      "sha512": "6aHU1JB1gF0azIodYsPFJ5s/5fiDoDiCg5kTI7O+SoOyJrpjKJ8umaMN6r/VwhEUPW1yHxFsEkX/XHO+mXrvAA==",
       "type": "package",
-      "path": "humanizer.core.ja/2.14.1",
+      "path": "humanizer.core.ja/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.ja.2.14.1.nupkg.sha512",
+        "humanizer.core.ja.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.ja.nuspec",
-        "lib/net6.0/ja/Humanizer.resources.dll",
-        "lib/netstandard1.0/ja/Humanizer.resources.dll",
+        "lib/net10.0/ja/Humanizer.resources.dll",
+        "lib/net48/ja/Humanizer.resources.dll",
+        "lib/net8.0/ja/Humanizer.resources.dll",
         "lib/netstandard2.0/ja/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.ko-KR/2.14.1": {
-      "sha512": "CtvwvK941k/U0r8PGdEuBEMdW6jv/rBiA9tUhakC7Zd2rA/HCnDcbr1DiNZ+/tRshnhzxy/qwmpY8h4qcAYCtQ==",
+    "Humanizer.Core.ko-KR/3.0.0-beta.96": {
+      "sha512": "gcYmdBIZ+oBFRTnDZ3RMx4DIOoLcaTa5XPbmefl0GdDJeG7xsFxZQHeRh5sHXNIiMchSYjkPgCgfJTuiwHumIQ==",
       "type": "package",
-      "path": "humanizer.core.ko-kr/2.14.1",
+      "path": "humanizer.core.ko-kr/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.ko-kr.2.14.1.nupkg.sha512",
+        "humanizer.core.ko-kr.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.ko-kr.nuspec",
-        "lib/netstandard1.0/ko-KR/Humanizer.resources.dll",
+        "lib/net10.0/ko-KR/Humanizer.resources.dll",
+        "lib/net48/ko-KR/Humanizer.resources.dll",
+        "lib/net8.0/ko-KR/Humanizer.resources.dll",
         "lib/netstandard2.0/ko-KR/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.ku/2.14.1": {
-      "sha512": "vHmzXcVMe+LNrF9txpdHzpG7XJX65SiN9GQd/Zkt6gsGIIEeECHrkwCN5Jnlkddw2M/b0HS4SNxdR1GrSn7uCA==",
+    "Humanizer.Core.ku/3.0.0-beta.96": {
+      "sha512": "4tMhhNYFOEljlp+y5C/xMVpXga5rGUiYv1gEQJC82tRMhxm/q5elVMQEGtx/iJWZSNiCgj4VZ2Ur4Sqh186gJQ==",
       "type": "package",
-      "path": "humanizer.core.ku/2.14.1",
+      "path": "humanizer.core.ku/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.ku.2.14.1.nupkg.sha512",
+        "humanizer.core.ku.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.ku.nuspec",
-        "lib/net6.0/ku/Humanizer.resources.dll",
-        "lib/netstandard1.0/ku/Humanizer.resources.dll",
+        "lib/net10.0/ku/Humanizer.resources.dll",
+        "lib/net48/ku/Humanizer.resources.dll",
+        "lib/net8.0/ku/Humanizer.resources.dll",
         "lib/netstandard2.0/ku/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.lv/2.14.1": {
-      "sha512": "E1/KUVnYBS1bdOTMNDD7LV/jdoZv/fbWTLPtvwdMtSdqLyRTllv6PGM9xVQoFDYlpvVGtEl/09glCojPHw8ffA==",
+    "Humanizer.Core.lb/3.0.0-beta.96": {
+      "sha512": "QAObL6iaSztyoYnA8yZlrGraXKXGcxPufRpDbn7S3+boTXY3tkdK4ytZH61AB6wJvuN2ZVqphOMYgCnttO8DUg==",
       "type": "package",
-      "path": "humanizer.core.lv/2.14.1",
+      "path": "humanizer.core.lb/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.lv.2.14.1.nupkg.sha512",
+        "humanizer.core.lb.3.0.0-beta.96.nupkg.sha512",
+        "humanizer.core.lb.nuspec",
+        "lib/net10.0/lb/Humanizer.resources.dll",
+        "lib/net48/lb/Humanizer.resources.dll",
+        "lib/net8.0/lb/Humanizer.resources.dll",
+        "lib/netstandard2.0/lb/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.lt/3.0.0-beta.96": {
+      "sha512": "ePE7K9tngIOLwbKf6lQjtRhTTpiRUvy/DxnHAXI282RDA9DiUB7OE4Zr6NHJeIdrJA4JGat+HosJDPwDp7vV7A==",
+      "type": "package",
+      "path": "humanizer.core.lt/3.0.0-beta.96",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.lt.3.0.0-beta.96.nupkg.sha512",
+        "humanizer.core.lt.nuspec",
+        "lib/net10.0/lt/Humanizer.resources.dll",
+        "lib/net48/lt/Humanizer.resources.dll",
+        "lib/net8.0/lt/Humanizer.resources.dll",
+        "lib/netstandard2.0/lt/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.lv/3.0.0-beta.96": {
+      "sha512": "HL/3ilL1doE8MublQyMFB4ro/C6M7miAfHvtOXUtc7wsbHJPc9HnbIcBhnyxh3JmYgKbThWoZ6ssfmDeV73qbg==",
+      "type": "package",
+      "path": "humanizer.core.lv/3.0.0-beta.96",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.lv.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.lv.nuspec",
-        "lib/net6.0/lv/Humanizer.resources.dll",
-        "lib/netstandard1.0/lv/Humanizer.resources.dll",
+        "lib/net10.0/lv/Humanizer.resources.dll",
+        "lib/net48/lv/Humanizer.resources.dll",
+        "lib/net8.0/lv/Humanizer.resources.dll",
         "lib/netstandard2.0/lv/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.ms-MY/2.14.1": {
-      "sha512": "vX8oq9HnYmAF7bek4aGgGFJficHDRTLgp/EOiPv9mBZq0i4SA96qVMYSjJ2YTaxs7Eljqit7pfpE2nmBhY5Fnw==",
+    "Humanizer.Core.ms-MY/3.0.0-beta.96": {
+      "sha512": "CuUek2ZvjaR3l4zSsb0lhUujTvtExLkSgP1RlQiaux0RB9Kbh88odwLTDaPhWYcA7D0h0nCkBxSZNwxhP4kWdg==",
       "type": "package",
-      "path": "humanizer.core.ms-my/2.14.1",
+      "path": "humanizer.core.ms-my/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.ms-my.2.14.1.nupkg.sha512",
+        "humanizer.core.ms-my.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.ms-my.nuspec",
-        "lib/netstandard1.0/ms-MY/Humanizer.resources.dll",
+        "lib/net10.0/ms-MY/Humanizer.resources.dll",
+        "lib/net48/ms-MY/Humanizer.resources.dll",
+        "lib/net8.0/ms-MY/Humanizer.resources.dll",
         "lib/netstandard2.0/ms-MY/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.mt/2.14.1": {
-      "sha512": "pEgTBzUI9hzemF7xrIZigl44LidTUhNu4x/P6M9sAwZjkUF0mMkbpxKkaasOql7lLafKrnszs0xFfaxQyzeuZQ==",
+    "Humanizer.Core.mt/3.0.0-beta.96": {
+      "sha512": "ss4Uxs9mjzaBw5Fhy68ttAP3MeyxHD1Rbk+bLERBMWtwQibER1fcH4JYu/EuRJ7yDe4oObOjRqu3GzNrXGLbXg==",
       "type": "package",
-      "path": "humanizer.core.mt/2.14.1",
+      "path": "humanizer.core.mt/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.mt.2.14.1.nupkg.sha512",
+        "humanizer.core.mt.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.mt.nuspec",
-        "lib/netstandard1.0/mt/Humanizer.resources.dll",
+        "lib/net10.0/mt/Humanizer.resources.dll",
+        "lib/net48/mt/Humanizer.resources.dll",
+        "lib/net8.0/mt/Humanizer.resources.dll",
         "lib/netstandard2.0/mt/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.nb/2.14.1": {
-      "sha512": "mbs3m6JJq53ssLqVPxNfqSdTxAcZN3njlG8yhJVx83XVedpTe1ECK9aCa8FKVOXv93Gl+yRHF82Hw9T9LWv2hw==",
+    "Humanizer.Core.nb/3.0.0-beta.96": {
+      "sha512": "o579CpW97Oj8Xp4IgTzlwieH+QOV/gRbEXUKapaQdiK/bOCOMm9N1z+wNhbDYmY/Uym6K34PG7xpbqio0Nj9QQ==",
       "type": "package",
-      "path": "humanizer.core.nb/2.14.1",
+      "path": "humanizer.core.nb/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.nb.2.14.1.nupkg.sha512",
+        "humanizer.core.nb.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.nb.nuspec",
-        "lib/net6.0/nb/Humanizer.resources.dll",
-        "lib/netstandard1.0/nb/Humanizer.resources.dll",
+        "lib/net10.0/nb/Humanizer.resources.dll",
+        "lib/net48/nb/Humanizer.resources.dll",
+        "lib/net8.0/nb/Humanizer.resources.dll",
         "lib/netstandard2.0/nb/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.nb-NO/2.14.1": {
-      "sha512": "AsJxrrVYmIMbKDGe8W6Z6//wKv9dhWH7RsTcEHSr4tQt/80pcNvLi0hgD3fqfTtg0tWKtgch2cLf4prorEV+5A==",
+    "Humanizer.Core.nb-NO/3.0.0-beta.96": {
+      "sha512": "epxcGNzQMeyhGNEypcb3bFYePcoARkBHWHfKttOdNKI91uuSMt7lG9/Y7l8cGGVPfvOLu6brU6KZISQ+85TyaA==",
       "type": "package",
-      "path": "humanizer.core.nb-no/2.14.1",
+      "path": "humanizer.core.nb-no/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.nb-no.2.14.1.nupkg.sha512",
+        "humanizer.core.nb-no.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.nb-no.nuspec",
-        "lib/net6.0/nb-NO/Humanizer.resources.dll",
-        "lib/netstandard1.0/nb-NO/Humanizer.resources.dll",
+        "lib/net10.0/nb-NO/Humanizer.resources.dll",
+        "lib/net48/nb-NO/Humanizer.resources.dll",
+        "lib/net8.0/nb-NO/Humanizer.resources.dll",
         "lib/netstandard2.0/nb-NO/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.nl/2.14.1": {
-      "sha512": "24b0OUdzJxfoqiHPCtYnR5Y4l/s4Oh7KW7uDp+qX25NMAHLCGog2eRfA7p2kRJp8LvnynwwQxm2p534V9m55wQ==",
+    "Humanizer.Core.nl/3.0.0-beta.96": {
+      "sha512": "FmFCjnc53MH5tk6sRgOB/pSjFUmCiPBO2OcdV1szqYPJ0dGNkGw3pHUfE3P3gAHYuHL/GdYyhCi74/BiyK5C2g==",
       "type": "package",
-      "path": "humanizer.core.nl/2.14.1",
+      "path": "humanizer.core.nl/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.nl.2.14.1.nupkg.sha512",
+        "humanizer.core.nl.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.nl.nuspec",
-        "lib/net6.0/nl/Humanizer.resources.dll",
-        "lib/netstandard1.0/nl/Humanizer.resources.dll",
+        "lib/net10.0/nl/Humanizer.resources.dll",
+        "lib/net48/nl/Humanizer.resources.dll",
+        "lib/net8.0/nl/Humanizer.resources.dll",
         "lib/netstandard2.0/nl/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.pl/2.14.1": {
-      "sha512": "17mJNYaBssENVZyQHduiq+bvdXS0nhZJGEXtPKoMhKv3GD//WO0mEfd9wjEBsWCSmWI7bjRqhCidxzN+YtJmsg==",
+    "Humanizer.Core.pl/3.0.0-beta.96": {
+      "sha512": "JMUCLMrAEzRR9b+4BY4+b8D+ymQIUAp74b7+zWY/ZLOnwc8Yw01sFx51hbJCgohEVXAitOAyHjzvrhUoijG32Q==",
       "type": "package",
-      "path": "humanizer.core.pl/2.14.1",
+      "path": "humanizer.core.pl/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.pl.2.14.1.nupkg.sha512",
+        "humanizer.core.pl.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.pl.nuspec",
-        "lib/net6.0/pl/Humanizer.resources.dll",
-        "lib/netstandard1.0/pl/Humanizer.resources.dll",
+        "lib/net10.0/pl/Humanizer.resources.dll",
+        "lib/net48/pl/Humanizer.resources.dll",
+        "lib/net8.0/pl/Humanizer.resources.dll",
         "lib/netstandard2.0/pl/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.pt/2.14.1": {
-      "sha512": "8HB8qavcVp2la1GJX6t+G9nDYtylPKzyhxr9LAooIei9MnQvNsjEiIE4QvHoeDZ4weuQ9CsPg1c211XUMVEZ4A==",
+    "Humanizer.Core.pt/3.0.0-beta.96": {
+      "sha512": "Xb9XhdAQKG9qkbR/SPO5oYPiUtDaueTwJPRnUoBBIbdDTzpQlSUVjJ/DFez+/X8d8GsANWjof3g/5YnOWZ16+g==",
       "type": "package",
-      "path": "humanizer.core.pt/2.14.1",
+      "path": "humanizer.core.pt/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.pt.2.14.1.nupkg.sha512",
+        "humanizer.core.pt.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.pt.nuspec",
-        "lib/net6.0/pt/Humanizer.resources.dll",
-        "lib/netstandard1.0/pt/Humanizer.resources.dll",
+        "lib/net10.0/pt/Humanizer.resources.dll",
+        "lib/net48/pt/Humanizer.resources.dll",
+        "lib/net8.0/pt/Humanizer.resources.dll",
         "lib/netstandard2.0/pt/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.ro/2.14.1": {
-      "sha512": "psXNOcA6R8fSHoQYhpBTtTTYiOk8OBoN3PKCEDgsJKIyeY5xuK81IBdGi77qGZMu/OwBRQjQCBMtPJb0f4O1+A==",
+    "Humanizer.Core.ro/3.0.0-beta.96": {
+      "sha512": "SSaZzeQmrbmDh2/CHSUF3jbU2V0ilcVHPa32/i7g0TXeywzP35CIcZ7vfKlJcfLSnempMg1bdm703hfeUdoLTw==",
       "type": "package",
-      "path": "humanizer.core.ro/2.14.1",
+      "path": "humanizer.core.ro/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.ro.2.14.1.nupkg.sha512",
+        "humanizer.core.ro.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.ro.nuspec",
-        "lib/net6.0/ro/Humanizer.resources.dll",
-        "lib/netstandard1.0/ro/Humanizer.resources.dll",
+        "lib/net10.0/ro/Humanizer.resources.dll",
+        "lib/net48/ro/Humanizer.resources.dll",
+        "lib/net8.0/ro/Humanizer.resources.dll",
         "lib/netstandard2.0/ro/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.ru/2.14.1": {
-      "sha512": "zm245xUWrajSN2t9H7BTf84/2APbUkKlUJpcdgsvTdAysr1ag9fi1APu6JEok39RRBXDfNRVZHawQ/U8X0pSvQ==",
+    "Humanizer.Core.ru/3.0.0-beta.96": {
+      "sha512": "+uTlQsIs4blTP6f0mnQ7lnn8wyOLmZFMWHqqTh3+Ul960FLlo0UnxYScV1sgNLHudv/04IiLsuj3bGxWJKW0FQ==",
       "type": "package",
-      "path": "humanizer.core.ru/2.14.1",
+      "path": "humanizer.core.ru/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.ru.2.14.1.nupkg.sha512",
+        "humanizer.core.ru.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.ru.nuspec",
-        "lib/net6.0/ru/Humanizer.resources.dll",
-        "lib/netstandard1.0/ru/Humanizer.resources.dll",
+        "lib/net10.0/ru/Humanizer.resources.dll",
+        "lib/net48/ru/Humanizer.resources.dll",
+        "lib/net8.0/ru/Humanizer.resources.dll",
         "lib/netstandard2.0/ru/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.sk/2.14.1": {
-      "sha512": "Ncw24Vf3ioRnbU4MsMFHafkyYi8JOnTqvK741GftlQvAbULBoTz2+e7JByOaasqeSi0KfTXeegJO+5Wk1c0Mbw==",
+    "Humanizer.Core.sk/3.0.0-beta.96": {
+      "sha512": "dcSN1GYFUNTQFlLljGZLarLe1e258wtNK+k0Mj2sghN+ffvlK1aRhUvanmqAaURfkK5ume1Q4e0A4/ATMNNFsw==",
       "type": "package",
-      "path": "humanizer.core.sk/2.14.1",
+      "path": "humanizer.core.sk/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.sk.2.14.1.nupkg.sha512",
+        "humanizer.core.sk.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.sk.nuspec",
-        "lib/net6.0/sk/Humanizer.resources.dll",
-        "lib/netstandard1.0/sk/Humanizer.resources.dll",
+        "lib/net10.0/sk/Humanizer.resources.dll",
+        "lib/net48/sk/Humanizer.resources.dll",
+        "lib/net8.0/sk/Humanizer.resources.dll",
         "lib/netstandard2.0/sk/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.sl/2.14.1": {
-      "sha512": "l8sUy4ciAIbVThWNL0atzTS2HWtv8qJrsGWNlqrEKmPwA4SdKolSqnTes9V89fyZTc2Q43jK8fgzVE2C7t009A==",
+    "Humanizer.Core.sl/3.0.0-beta.96": {
+      "sha512": "H05Tl8RQs8RoJ+UWYPga087x4Be57EpRk6iYwo4absTlFyPeISv8whUqayJBvDpNGS94QHennrnfembrCnhJXg==",
       "type": "package",
-      "path": "humanizer.core.sl/2.14.1",
+      "path": "humanizer.core.sl/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.sl.2.14.1.nupkg.sha512",
+        "humanizer.core.sl.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.sl.nuspec",
-        "lib/net6.0/sl/Humanizer.resources.dll",
-        "lib/netstandard1.0/sl/Humanizer.resources.dll",
+        "lib/net10.0/sl/Humanizer.resources.dll",
+        "lib/net48/sl/Humanizer.resources.dll",
+        "lib/net8.0/sl/Humanizer.resources.dll",
         "lib/netstandard2.0/sl/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.sr/2.14.1": {
-      "sha512": "rnNvhpkOrWEymy7R/MiFv7uef8YO5HuXDyvojZ7JpijHWA5dXuVXooCOiA/3E93fYa3pxDuG2OQe4M/olXbQ7w==",
+    "Humanizer.Core.sr/3.0.0-beta.96": {
+      "sha512": "FLH10qbsgL5NJJ/moB1iSnmO1wkVDloJYwq1CwIKp0PePb4bViO0z4nTXKCERWn3zl3WXeCJ5gOUyrvplr6bSQ==",
       "type": "package",
-      "path": "humanizer.core.sr/2.14.1",
+      "path": "humanizer.core.sr/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.sr.2.14.1.nupkg.sha512",
+        "humanizer.core.sr.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.sr.nuspec",
-        "lib/net6.0/sr/Humanizer.resources.dll",
-        "lib/netstandard1.0/sr/Humanizer.resources.dll",
+        "lib/net10.0/sr/Humanizer.resources.dll",
+        "lib/net48/sr/Humanizer.resources.dll",
+        "lib/net8.0/sr/Humanizer.resources.dll",
         "lib/netstandard2.0/sr/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.sr-Latn/2.14.1": {
-      "sha512": "nuy/ykpk974F8ItoQMS00kJPr2dFNjOSjgzCwfysbu7+gjqHmbLcYs7G4kshLwdA4AsVncxp99LYeJgoh1JF5g==",
+    "Humanizer.Core.sr-Latn/3.0.0-beta.96": {
+      "sha512": "aTIigE/P5ahO5RO88igcz5V8Fo0MP8+Cu/NFVFXQJv+Yw39dQ1fOscLpVXenOg22sy2Tz2pi/JNfK42SDEiV6Q==",
       "type": "package",
-      "path": "humanizer.core.sr-latn/2.14.1",
+      "path": "humanizer.core.sr-latn/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.sr-latn.2.14.1.nupkg.sha512",
+        "humanizer.core.sr-latn.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.sr-latn.nuspec",
-        "lib/net6.0/sr-Latn/Humanizer.resources.dll",
-        "lib/netstandard1.0/sr-Latn/Humanizer.resources.dll",
+        "lib/net10.0/sr-Latn/Humanizer.resources.dll",
+        "lib/net48/sr-Latn/Humanizer.resources.dll",
+        "lib/net8.0/sr-Latn/Humanizer.resources.dll",
         "lib/netstandard2.0/sr-Latn/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.sv/2.14.1": {
-      "sha512": "E53+tpAG0RCp+cSSI7TfBPC+NnsEqUuoSV0sU+rWRXWr9MbRWx1+Zj02XMojqjGzHjjOrBFBBio6m74seFl0AA==",
+    "Humanizer.Core.sv/3.0.0-beta.96": {
+      "sha512": "k3URfcuKrOfL64Eg5mE2uV8YotKnhObFsJaIiyGhRPyl2QrrPU6VXKM2DmLa6Cfa1RN3zHYLv8PzBo1g6jVBYA==",
       "type": "package",
-      "path": "humanizer.core.sv/2.14.1",
+      "path": "humanizer.core.sv/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.sv.2.14.1.nupkg.sha512",
+        "humanizer.core.sv.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.sv.nuspec",
-        "lib/net6.0/sv/Humanizer.resources.dll",
-        "lib/netstandard1.0/sv/Humanizer.resources.dll",
+        "lib/net10.0/sv/Humanizer.resources.dll",
+        "lib/net48/sv/Humanizer.resources.dll",
+        "lib/net8.0/sv/Humanizer.resources.dll",
         "lib/netstandard2.0/sv/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.th-TH/2.14.1": {
-      "sha512": "eSevlJtvs1r4vQarNPfZ2kKDp/xMhuD00tVVzRXkSh1IAZbBJI/x2ydxUOwfK9bEwEp+YjvL1Djx2+kw7ziu7g==",
+    "Humanizer.Core.th-TH/3.0.0-beta.96": {
+      "sha512": "9vaBFcdcXvE4uXr4VLbhPQ/Hv7lKf4Cb1HzThrnWklTk6uzZkmYYRs/yat+apk7of0VAlY8rthsMiNIwwSWW+A==",
       "type": "package",
-      "path": "humanizer.core.th-th/2.14.1",
+      "path": "humanizer.core.th-th/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.th-th.2.14.1.nupkg.sha512",
+        "humanizer.core.th-th.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.th-th.nuspec",
-        "lib/netstandard1.0/th-TH/Humanizer.resources.dll",
+        "lib/net10.0/th-TH/Humanizer.resources.dll",
+        "lib/net48/th-TH/Humanizer.resources.dll",
+        "lib/net8.0/th-TH/Humanizer.resources.dll",
         "lib/netstandard2.0/th-TH/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.tr/2.14.1": {
-      "sha512": "rQ8N+o7yFcFqdbtu1mmbrXFi8TQ+uy+fVH9OPI0CI3Cu1om5hUU/GOMC3hXsTCI6d79y4XX+0HbnD7FT5khegA==",
+    "Humanizer.Core.tr/3.0.0-beta.96": {
+      "sha512": "d5xUVe/1NrmAeBTL3KamGtZJ/3ja7O8OOWV/ICmNeOEHPMg5wZTWnQ3DOOrJAdrnf5D6kNcngKxYwKZYoRS19g==",
       "type": "package",
-      "path": "humanizer.core.tr/2.14.1",
+      "path": "humanizer.core.tr/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.tr.2.14.1.nupkg.sha512",
+        "humanizer.core.tr.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.tr.nuspec",
-        "lib/net6.0/tr/Humanizer.resources.dll",
-        "lib/netstandard1.0/tr/Humanizer.resources.dll",
+        "lib/net10.0/tr/Humanizer.resources.dll",
+        "lib/net48/tr/Humanizer.resources.dll",
+        "lib/net8.0/tr/Humanizer.resources.dll",
         "lib/netstandard2.0/tr/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.uk/2.14.1": {
-      "sha512": "2uEfujwXKNm6bdpukaLtEJD+04uUtQD65nSGCetA1fYNizItEaIBUboNfr3GzJxSMQotNwGVM3+nSn8jTd0VSg==",
+    "Humanizer.Core.uk/3.0.0-beta.96": {
+      "sha512": "3i9xEIoqoWUtNKaihYqr9EfQw7ilWiDIaDwrXDrADldO1HHFAcc+F2vNEB1sZ81/F/1FBCthyODTFDBD1Ma4Kg==",
       "type": "package",
-      "path": "humanizer.core.uk/2.14.1",
+      "path": "humanizer.core.uk/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.uk.2.14.1.nupkg.sha512",
+        "humanizer.core.uk.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.uk.nuspec",
-        "lib/net6.0/uk/Humanizer.resources.dll",
-        "lib/netstandard1.0/uk/Humanizer.resources.dll",
+        "lib/net10.0/uk/Humanizer.resources.dll",
+        "lib/net48/uk/Humanizer.resources.dll",
+        "lib/net8.0/uk/Humanizer.resources.dll",
         "lib/netstandard2.0/uk/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.uz-Cyrl-UZ/2.14.1": {
-      "sha512": "TD3ME2sprAvFqk9tkWrvSKx5XxEMlAn1sjk+cYClSWZlIMhQQ2Bp/w0VjX1Kc5oeKjxRAnR7vFcLUFLiZIDk9Q==",
+    "Humanizer.Core.uz-Cyrl-UZ/3.0.0-beta.96": {
+      "sha512": "LZK6cDgU0fQ0zURLYwk4qlodc0ZGcXkxV6zfHJbHXBsow12cJ2p7NhL495ihWLnDrHfD20+J1y9rTvC9vIWnFA==",
       "type": "package",
-      "path": "humanizer.core.uz-cyrl-uz/2.14.1",
+      "path": "humanizer.core.uz-cyrl-uz/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.uz-cyrl-uz.2.14.1.nupkg.sha512",
+        "humanizer.core.uz-cyrl-uz.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.uz-cyrl-uz.nuspec",
-        "lib/net6.0/uz-Cyrl-UZ/Humanizer.resources.dll",
-        "lib/netstandard1.0/uz-Cyrl-UZ/Humanizer.resources.dll",
+        "lib/net10.0/uz-Cyrl-UZ/Humanizer.resources.dll",
+        "lib/net48/uz-Cyrl-UZ/Humanizer.resources.dll",
+        "lib/net8.0/uz-Cyrl-UZ/Humanizer.resources.dll",
         "lib/netstandard2.0/uz-Cyrl-UZ/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.uz-Latn-UZ/2.14.1": {
-      "sha512": "/kHAoF4g0GahnugZiEMpaHlxb+W6jCEbWIdsq9/I1k48ULOsl/J0pxZj93lXC3omGzVF1BTVIeAtv5fW06Phsg==",
+    "Humanizer.Core.uz-Latn-UZ/3.0.0-beta.96": {
+      "sha512": "AmoGiYjAjoi7htH6Vimd266rGRfyU0Jsa9BjALP7EAsWILjAzba3aMmChK33A6apFzC9fv2XT0amZsgIqBvR/Q==",
       "type": "package",
-      "path": "humanizer.core.uz-latn-uz/2.14.1",
+      "path": "humanizer.core.uz-latn-uz/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.uz-latn-uz.2.14.1.nupkg.sha512",
+        "humanizer.core.uz-latn-uz.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.uz-latn-uz.nuspec",
-        "lib/net6.0/uz-Latn-UZ/Humanizer.resources.dll",
-        "lib/netstandard1.0/uz-Latn-UZ/Humanizer.resources.dll",
+        "lib/net10.0/uz-Latn-UZ/Humanizer.resources.dll",
+        "lib/net48/uz-Latn-UZ/Humanizer.resources.dll",
+        "lib/net8.0/uz-Latn-UZ/Humanizer.resources.dll",
         "lib/netstandard2.0/uz-Latn-UZ/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.vi/2.14.1": {
-      "sha512": "rsQNh9rmHMBtnsUUlJbShMsIMGflZtPmrMM6JNDw20nhsvqfrdcoDD8cMnLAbuSovtc3dP+swRmLQzKmXDTVPA==",
+    "Humanizer.Core.vi/3.0.0-beta.96": {
+      "sha512": "PZnFdIJF54ODyMazZDSe30NuRuVx4/c/3KBXzwFX3tR+yz+gJkYlYpTI8ozRLF2/mlcFr9iFAU4Pau6jJFevFw==",
       "type": "package",
-      "path": "humanizer.core.vi/2.14.1",
+      "path": "humanizer.core.vi/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.vi.2.14.1.nupkg.sha512",
+        "humanizer.core.vi.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.vi.nuspec",
-        "lib/net6.0/vi/Humanizer.resources.dll",
-        "lib/netstandard1.0/vi/Humanizer.resources.dll",
+        "lib/net10.0/vi/Humanizer.resources.dll",
+        "lib/net48/vi/Humanizer.resources.dll",
+        "lib/net8.0/vi/Humanizer.resources.dll",
         "lib/netstandard2.0/vi/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.zh-CN/2.14.1": {
-      "sha512": "uH2dWhrgugkCjDmduLdAFO9w1Mo0q07EuvM0QiIZCVm6FMCu/lGv2fpMu4GX+4HLZ6h5T2Pg9FIdDLCPN2a67w==",
+    "Humanizer.Core.zh-CN/3.0.0-beta.96": {
+      "sha512": "GX8JvHC9/ghN8ZU/MadCnRrLB6kJXQEuJz3i0hS03VVrTZlHMRQfXEC3NhSktSJ9FCyYq+WZaw7jhmSaQ/S2pA==",
       "type": "package",
-      "path": "humanizer.core.zh-cn/2.14.1",
+      "path": "humanizer.core.zh-cn/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.zh-cn.2.14.1.nupkg.sha512",
+        "humanizer.core.zh-cn.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.zh-cn.nuspec",
-        "lib/net6.0/zh-CN/Humanizer.resources.dll",
-        "lib/netstandard1.0/zh-CN/Humanizer.resources.dll",
+        "lib/net10.0/zh-CN/Humanizer.resources.dll",
+        "lib/net48/zh-CN/Humanizer.resources.dll",
+        "lib/net8.0/zh-CN/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-CN/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.zh-Hans/2.14.1": {
-      "sha512": "WH6IhJ8V1UBG7rZXQk3dZUoP2gsi8a0WkL8xL0sN6WGiv695s8nVcmab9tWz20ySQbuzp0UkSxUQFi5jJHIpOQ==",
+    "Humanizer.Core.zh-Hans/3.0.0-beta.96": {
+      "sha512": "S0nzvET+5M188jPN2cUiMguIszKZQ6tVyvAem3xBjvF0LjodAlAmZNlMjw5zaPMACuWMkOgvpKjuA8dhFa2Gqg==",
       "type": "package",
-      "path": "humanizer.core.zh-hans/2.14.1",
+      "path": "humanizer.core.zh-hans/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.zh-hans.2.14.1.nupkg.sha512",
+        "humanizer.core.zh-hans.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.zh-hans.nuspec",
-        "lib/net6.0/zh-Hans/Humanizer.resources.dll",
-        "lib/netstandard1.0/zh-Hans/Humanizer.resources.dll",
+        "lib/net10.0/zh-Hans/Humanizer.resources.dll",
+        "lib/net48/zh-Hans/Humanizer.resources.dll",
+        "lib/net8.0/zh-Hans/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hans/Humanizer.resources.dll",
         "logo.png"
       ]
     },
-    "Humanizer.Core.zh-Hant/2.14.1": {
-      "sha512": "VIXB7HCUC34OoaGnO3HJVtSv2/wljPhjV7eKH4+TFPgQdJj2lvHNKY41Dtg0Bphu7X5UaXFR4zrYYyo+GNOjbA==",
+    "Humanizer.Core.zh-Hant/3.0.0-beta.96": {
+      "sha512": "nzWjsEb7JLHtBOuWuKBI1b0rm31C4Q8DSJHZy6UPhjO1HVra7GcMVeNyxXsljaVtdjR5kjLaPuhrr0yDNEUtYA==",
       "type": "package",
-      "path": "humanizer.core.zh-hant/2.14.1",
+      "path": "humanizer.core.zh-hant/3.0.0-beta.96",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+        "humanizer.core.zh-hant.3.0.0-beta.96.nupkg.sha512",
         "humanizer.core.zh-hant.nuspec",
-        "lib/net6.0/zh-Hant/Humanizer.resources.dll",
-        "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
+        "lib/net10.0/zh-Hant/Humanizer.resources.dll",
+        "lib/net48/zh-Hant/Humanizer.resources.dll",
+        "lib/net8.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
         "logo.png"
       ]
@@ -1348,7 +1458,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Humanizer >= 2.14.1"
+      "Humanizer >= 3.0.0-beta.96"
     ]
   },
   "packageFolders": {
@@ -1396,7 +1506,7 @@
         "dependencies": {
           "Humanizer": {
             "target": "Package",
-            "version": "[2.14.1, )"
+            "version": "[3.0.0-beta.96, )"
           }
         },
         "imports": [

@@ -1,4 +1,5 @@
 using System;
+using Humanizer;
 // Challenge: Practice managing dependency updates
 // 1. Add the Humanizer package with a version range in the .csproj file.
 // 2. Use the CLI to check for outdated packages and update as needed.
@@ -11,5 +12,6 @@ class Program
     {
         // TODO: Use Humanizer here if installed, e.g.:
         // Console.WriteLine("case".ToQuantity(2));
+        Console.WriteLine("case".ToQuantity(2));
     }
 }
