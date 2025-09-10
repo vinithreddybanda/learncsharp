@@ -1,6 +1,4 @@
 name: Auto-update Root README
-env:
-    GH_PAT: ${{secrets.GH_PAT}}
 
 on:
   push:
@@ -20,6 +18,8 @@ jobs:
         run: bash generate-index.sh
 
       - name: Commit and push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
