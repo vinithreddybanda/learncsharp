@@ -24,7 +24,7 @@ class Program
         int sum;
 
         // TODO: Use the debugger to find and fix the bug in the loop condition
-        for (int i = 2; i < n; i++)
+        for (int i = 2; i <= n; i++)
         {
             sum = n1 + n2;
             n1 = n2;
