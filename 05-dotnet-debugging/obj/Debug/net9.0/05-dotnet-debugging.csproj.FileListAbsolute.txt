@@ -1,0 +1,15 @@
+D:\c#\Learn\05-dotnet-debugging\bin\Debug\net9.0\05-dotnet-debugging.exe
+D:\c#\Learn\05-dotnet-debugging\bin\Debug\net9.0\05-dotnet-debugging.deps.json
+D:\c#\Learn\05-dotnet-debugging\bin\Debug\net9.0\05-dotnet-debugging.runtimeconfig.json
+D:\c#\Learn\05-dotnet-debugging\bin\Debug\net9.0\05-dotnet-debugging.dll
+D:\c#\Learn\05-dotnet-debugging\bin\Debug\net9.0\05-dotnet-debugging.pdb
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\05-dotnet-debugging.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\05-dotnet-debugging.AssemblyInfoInputs.cache
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\05-dotnet-debugging.AssemblyInfo.cs
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\05-dotnet-debugging.csproj.CoreCompileInputs.cache
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\05-dotnet-debugging.sourcelink.json
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\05-dotnet-debugging.dll
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\refint\05-dotnet-debugging.dll
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\05-dotnet-debugging.pdb
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\05-dotnet-debugging.genruntimeconfig.cache
+D:\c#\Learn\05-dotnet-debugging\obj\Debug\net9.0\ref\05-dotnet-debugging.dll

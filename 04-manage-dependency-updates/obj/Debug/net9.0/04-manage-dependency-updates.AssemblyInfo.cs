@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("04-manage-dependency-updates")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbd3b99fbd5f2cbe771ffd572c9d7fd3449685ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f6cfdb084ff2d2825ea6e29d32aebbeefdec50d")]
 [assembly: System.Reflection.AssemblyProductAttribute("04-manage-dependency-updates")]
 [assembly: System.Reflection.AssemblyTitleAttribute("04-manage-dependency-updates")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

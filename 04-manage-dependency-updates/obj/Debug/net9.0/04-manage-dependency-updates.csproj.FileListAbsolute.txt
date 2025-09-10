@@ -64,3 +64,5 @@ D:\c#\Learn\04-manage-dependency-updates\obj\Debug\net9.0\refint\04-manage-depen
 D:\c#\Learn\04-manage-dependency-updates\obj\Debug\net9.0\04-manage-dependency-updates.pdb
 D:\c#\Learn\04-manage-dependency-updates\obj\Debug\net9.0\04-manage-dependency-updates.genruntimeconfig.cache
 D:\c#\Learn\04-manage-dependency-updates\obj\Debug\net9.0\ref\04-manage-dependency-updates.dll
+D:\c#\Learn\04-manage-dependency-updates\bin\Debug\net9.0\lb\Humanizer.resources.dll
+D:\c#\Learn\04-manage-dependency-updates\bin\Debug\net9.0\lt\Humanizer.resources.dll
