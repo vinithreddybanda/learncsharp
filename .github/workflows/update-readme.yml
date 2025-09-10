@@ -1,4 +1,6 @@
 name: Auto-update Root README
+env:
+    GH_PAT: ${{ secrets.GH_PAT }}
 
 on:
   push:
@@ -21,6 +23,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
           git add README.md
           git diff --cached --quiet || git commit -m "Auto-update root README"
           git push
