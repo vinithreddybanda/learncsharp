@@ -12,6 +12,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Debug.WriteLine("Main method started");
         int result = Fibonacci(5);
         Console.WriteLine(result);
     }
@@ -30,9 +31,12 @@ class Program
             n1 = n2;
             n2 = sum;
             // TODO: Add Debug.WriteLineIf to log when sum == 1
+            Debug.WriteLineIf(sum == 1, $"Sum is 1 at iteration {i}");
         }
 
         // TODO: Add Debug.Assert to check the result before returning
+        Debug.Assert(n >= 0, "n should be non-negative");
+        Debug.Assert(n != 1 || n2 == 1, "Fibonacci(1) should be 1");
         return n == 0 ? n1 : n2;
     }
 }
