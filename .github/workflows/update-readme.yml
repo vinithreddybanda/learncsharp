@@ -1,0 +1,26 @@
+name: Auto-update Root README
+
+on:
+  push:
+    paths:
+      - '**/'  # Trigger on folder changes
+      - '.github/workflows/**'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate README index
+        run: bash generate-index.sh
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Auto-update root README"
+          git push
