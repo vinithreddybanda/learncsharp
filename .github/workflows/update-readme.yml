@@ -1,6 +1,6 @@
 name: Auto-update Root README
 env:
-    GH_PAT: ${{ secrets.GH_PAT }}
+    GH_PAT: ${{secrets.GH_PAT}}
 
 on:
   push:
