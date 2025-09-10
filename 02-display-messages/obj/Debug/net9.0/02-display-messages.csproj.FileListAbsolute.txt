@@ -1,0 +1,14 @@
+D:\c#\Learn\02-display-messages\bin\Debug\net9.0\02-display-messages.exe
+D:\c#\Learn\02-display-messages\bin\Debug\net9.0\02-display-messages.deps.json
+D:\c#\Learn\02-display-messages\bin\Debug\net9.0\02-display-messages.runtimeconfig.json
+D:\c#\Learn\02-display-messages\bin\Debug\net9.0\02-display-messages.dll
+D:\c#\Learn\02-display-messages\bin\Debug\net9.0\02-display-messages.pdb
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\02-display-messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\02-display-messages.AssemblyInfoInputs.cache
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\02-display-messages.AssemblyInfo.cs
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\02-display-messages.csproj.CoreCompileInputs.cache
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\02-display-messages.dll
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\refint\02-display-messages.dll
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\02-display-messages.pdb
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\02-display-messages.genruntimeconfig.cache
+D:\c#\Learn\02-display-messages\obj\Debug\net9.0\ref\02-display-messages.dll

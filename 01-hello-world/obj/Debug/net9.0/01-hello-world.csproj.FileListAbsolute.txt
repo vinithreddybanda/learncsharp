@@ -1,0 +1,14 @@
+D:\c#\Learn\01-hello-world\bin\Debug\net9.0\01-hello-world.exe
+D:\c#\Learn\01-hello-world\bin\Debug\net9.0\01-hello-world.deps.json
+D:\c#\Learn\01-hello-world\bin\Debug\net9.0\01-hello-world.runtimeconfig.json
+D:\c#\Learn\01-hello-world\bin\Debug\net9.0\01-hello-world.dll
+D:\c#\Learn\01-hello-world\bin\Debug\net9.0\01-hello-world.pdb
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\01-hello-world.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\01-hello-world.AssemblyInfoInputs.cache
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\01-hello-world.AssemblyInfo.cs
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\01-hello-world.csproj.CoreCompileInputs.cache
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\01-hello-world.dll
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\refint\01-hello-world.dll
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\01-hello-world.pdb
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\01-hello-world.genruntimeconfig.cache
+D:\c#\Learn\01-hello-world\obj\Debug\net9.0\ref\01-hello-world.dll
