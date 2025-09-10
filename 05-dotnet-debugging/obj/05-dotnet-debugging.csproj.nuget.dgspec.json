@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\c#\\Learn\\05-dotnet-debugging\\05-dotnet-debugging.csproj": {}
+    "D:\\c#\\Learn\\05-dotnet-debugging\\05-dotnet-debugging.csproj": {}
   },
   "projects": {
-    "d:\\c#\\Learn\\05-dotnet-debugging\\05-dotnet-debugging.csproj": {
+    "D:\\c#\\Learn\\05-dotnet-debugging\\05-dotnet-debugging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\c#\\Learn\\05-dotnet-debugging\\05-dotnet-debugging.csproj",
+        "projectUniqueName": "D:\\c#\\Learn\\05-dotnet-debugging\\05-dotnet-debugging.csproj",
         "projectName": "05-dotnet-debugging",
-        "projectPath": "d:\\c#\\Learn\\05-dotnet-debugging\\05-dotnet-debugging.csproj",
+        "projectPath": "D:\\c#\\Learn\\05-dotnet-debugging\\05-dotnet-debugging.csproj",
         "packagesPath": "C:\\Users\\vinit\\.nuget\\packages\\",
-        "outputPath": "d:\\c#\\Learn\\05-dotnet-debugging\\obj\\",
+        "outputPath": "D:\\c#\\Learn\\05-dotnet-debugging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinit\\AppData\\Roaming\\NuGet\\NuGet.Config"
